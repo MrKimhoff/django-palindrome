@@ -2,7 +2,7 @@
 
 A clean and simple web app built with Django that allows users to check if a given string is a palindrome — and view a running history of their checks. Styled with Bootstrap 5 for a modern, responsive look.
 
-![Screenshot](https://via.placeholder.com/800x400?text=Add+Your+Screenshot+Here)
+![Palindrome Banner](/assets/palindrome_banner.png)
 
 ---
 
@@ -13,12 +13,6 @@ A clean and simple web app built with Django that allows users to check if a giv
 - 🗑️ Clear all historical entries with one click
 - 🎨 Fully responsive design using Bootstrap 5
 - 🧰 Built entirely in Python using the Django framework
-
----
-
-## 📷 Demo
-
-> _Insert a screenshot or link to a live version here if deployed_
 
 ---
 
@@ -94,11 +88,6 @@ def is_palindrome(text):
 - [ ] Search & filter history
 - [ ] Deploy to the web with Render/Fly.io
 
----
-
-## 📸 Screenshot
-
-Feel free to take a screenshot of your running app and drop it into the repo (e.g., `screenshot.png`), then update the placeholder image above.
 
 ---
 
