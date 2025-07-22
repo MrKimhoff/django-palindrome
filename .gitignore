@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual env
+venv/
+
+# Django
+db.sqlite3
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# Environment
+.env
