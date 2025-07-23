@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'palindrome_site.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'palindrome_db',
+        'USER': 'taylor',
+        'PASSWORD': '2DUMtolive68123**',
+        'HOST': 'host.docker.internal',
+        'PORT': '5432',
     }
 }
 
